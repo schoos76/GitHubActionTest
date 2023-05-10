@@ -8,4 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Erster Test
-        run: | echo Hello World
+        run: | 
+          echo Hello World
