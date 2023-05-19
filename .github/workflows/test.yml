@@ -1,7 +1,7 @@
 name: test-actions
 on: 
   schedule:
-      - cron: '1 8-18 * * *'
+      - cron: '1 8-18 1 * *'
 jobs:
   test_schedule:
     name: Test Job
